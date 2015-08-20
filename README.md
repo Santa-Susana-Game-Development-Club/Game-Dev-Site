@@ -1,2 +1,2 @@
 # Game-Dev-Site
-Website for Santa Susana's Game Development Club
+Website for Santa Susana's Game Development Club.
