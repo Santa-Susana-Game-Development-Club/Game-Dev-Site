@@ -81,8 +81,8 @@
                 </div>
                 <div class="col-sm-3 col-xs-12">
                     <h1>Board</h1>
-                    <p>Advisor - <a href="mailto:darius.clarke@simivalleyusd.org" target="_blank">Mr. Clarke</a></p>
-                    <p>President - <a href="mailto:JoseRivas823@gmail.com" target="_blank">Jos&eacute; Rodriguez-Rivas</a></p>
+                    <p>Advisor - Mr. Clarke - <a href="mailto:darius.clarke@simivalleyusd.org" target="_blank">darius.clarke@simivalleyusd.org</a></p>
+                    <p>President - Jos&eacute; Rodriguez-Rivas -  <a href="mailto:JoseRivas823@gmail.com" target="_blank">JoseRivas823@gmail.com</a></p>
                     <p>Vice President - Thomas Mancinelli</p>
                     <p>Secretary - Hunter Buch</p>
                     <p>Treasurer - Anthony Moore</p>
