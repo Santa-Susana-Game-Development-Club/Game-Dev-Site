@@ -33,41 +33,43 @@
                     <div class="col-sm-9 col-xs-12">
                     <h1>Santa Susana Game Development Club</h1>
                     <p>Welcome to the web page for Santa Susana High School's Game Development Club! Game Dev Club is a club where students are taught how to develop video games using computer programming. The goal of the club is to not only create games, but to also simulate the actual working environment in Game Development, teaching the members about collaboration and the Game Developing Process.</p>
-                    <div class="row col-sm-6 col-xs-12">
-                        <div class="col-xs-12">
-                            <div id="home-carousel" class="carousel slide">
-                                <div class="carousel-inner">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="embed-responsive embed-responsive-4by3">
+                        	<div class="embed-responsive-item">
+                                <div id="home-carousel" class="carousel slide">
+                                    <div class="carousel-inner">
 
-                                    <div class="item active">
-                                        <img src="images/carousel/IMG_0271.JPG" class="img-responsive" />
+                                        <div class="item active">
+                                            <img src="images/carousel/IMG_0271.JPG" class="img-responsive" />
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/carousel/IMG_0272.JPG" class="img-responsive" />
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/carousel/IMG_0273.JPG" class="img-responsive" />
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/carousel/IMG_0274.JPG" class="img-responsive" />
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/carousel/IMG_0278.JPG" class="img-responsive" />
+                                        </div>
+
+                                        <a href="#home-carousel" class="carousel-control left" data-slide="prev">
+                                            <span class="icon-prev"></span>
+                                        </a>
+
+                                        <a href="#home-carousel" class="carousel-control right" data-slide="next">
+                                            <span class="icon-next"></span>
+                                        </a>
+
                                     </div>
-
-                                    <div class="item">
-                                        <img src="images/carousel/IMG_0272.JPG" class="img-responsive" />
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="images/carousel/IMG_0273.JPG" class="img-responsive" />
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="images/carousel/IMG_0274.JPG" class="img-responsive" />
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="images/carousel/IMG_0278.JPG" class="img-responsive" />
-                                    </div>
-
-                                    <a href="#home-carousel" class="carousel-control left" data-slide="prev">
-                                        <span class="icon-prev"></span>
-                                    </a>
-
-                                    <a href="#home-carousel" class="carousel-control right" data-slide="next">
-                                        <span class="icon-next"></span>
-                                    </a>
-
                                 </div>
-                            </div>
+                        	</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
