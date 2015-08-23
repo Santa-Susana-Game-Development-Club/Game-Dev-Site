@@ -21,7 +21,7 @@
             max-width: 45%;
         }
         #ea {
-            max-width: 40%;
+            max-width: 30%;
         }
     </style>
 </head>
