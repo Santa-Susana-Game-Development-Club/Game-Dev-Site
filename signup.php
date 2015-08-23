@@ -149,7 +149,7 @@ if(!$errName && !$errEmail && !$errHuman) {
     
     <?php 
     
-        include('header.php');
+        include('footer.php');
 
     ?>
 
