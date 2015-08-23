@@ -13,10 +13,6 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-        .calendarFrame {
-            width: 100%;
-            height: 300px;
-        }
         #calendar {
             margin-top: 0;
         }
@@ -37,7 +33,7 @@
                     <div class="col-sm-9 col-xs-12">
                     <h1>Santa Susana Game Development Club</h1>
                     <p>Welcome to the web page for Santa Susana High School's Game Development Club! Game Dev Club is a club where students are taught how to develop video games using computer programming. The goal of the club is to not only create games, but to also simulate the actual working environment in Game Development, teaching the members about collaboration and the Game Developing Process.</p>
-                    <div class="row col-sm-7 col-xs-12">
+                    <div class="row col-sm-6 col-xs-12">
                         <div class="col-xs-12">
                             <div id="home-carousel" class="carousel slide">
                                 <div class="carousel-inner">
@@ -74,9 +70,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-5 col-xs-12">
-                        <h2 id="calendar">Calendar</h2>
-                        <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=uioi5lkseqrvd0f7ecrvnh91gc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " class="calendarFrame" frameborder="0" scrolling="no"></iframe>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item" src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=uioi5lkseqrvd0f7ecrvnh91gc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " frameborder="0" scrolling="no"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-12">
@@ -90,7 +87,7 @@
                     <h1>Times</h1>
                     <p>Meeting times for the 2015-2016 school year have not yet been determined.</p>
 
-                    <a href="http://www.santasusana.org/" target="_blank"><img src="/images/content/SSHS-logo.png" alt="Santa Susana High School" class="img-responsive" ></a>
+                    <a href="http://www.santasusana.org/" target="_blank"><img src="/images/content/SSHS-logo.png" alt="Santa Susana High School" class="img-responsive" /></a>
 
                 </div>
                 </div>
