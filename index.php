@@ -87,7 +87,7 @@
                     <p>Treasurer - Anthony Moore</p>
 
                     <h1>Times</h1>
-                    <p>Meeting times for the 2015-2016 school year have not yet been determined.</p>
+                    <p>Meeting times for the 2015-2016 school are every Wednesday in Room 903 from 3pm to 5pm.</p>
 
                     <a href="http://www.santasusana.org/" target="_blank"><img src="/images/content/SSHS-logo.png" alt="Santa Susana High School" class="img-responsive" /></a>
 
