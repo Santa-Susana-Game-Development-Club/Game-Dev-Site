@@ -45,9 +45,6 @@
             width: 100%;
             height: 450px;
         }
-        .test1 {
-            overflow: scroll;
-        }
     </style>
 </head>
 <body data-spy="scroll" data-target=".scrollspy">
