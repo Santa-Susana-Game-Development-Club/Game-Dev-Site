@@ -32,16 +32,26 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-xs-12">
-                    <h2>Pong (Fall 2014)</h2>
-                    <img src="images/content/games/pong.png" class="img-responsive"/>
+                    <h2>Pong <small>Fall 2014</small></h2>
+                    <img src="images/content/games/pong.png" alt="Pong" class="img-responsive"/>
                     <h3>Description</h3>
                     <p>This is a remake of the classic game made by Atari in 1972. In Pong, you play tennis against the computer. As the ball bounces off of the paddles and the screen, the ball speeds up.</p>
                     <h3>For Developers</h3>
                     <p><a href="/gamefiles/pong_assets.zip">Download the assets here</a></p>
-                    <p><a href="https://github.com/JoseRivas1998/pongfall2014" target="_blank">GitHub Repo (Source Code)</a></p>
-                    <p><a href="/tutorials.html#tut7">Programming Tutorial</a></p>
+                    <p><a href="https://github.com/JoseRivas1998/pongfall2014" target="_blank">GitHub Repository (Source Code)</a></p>
+                    <p><a href="/tutorials.php#tut7">Programming Tutorial</a></p>
                     <h3>For Everyone</h3>
                     <p><a href="/gamefiles/Pong.jar">Download the Game Here!</a></p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <h2>Space Invaders <small>Fall 2015</small></h2>
+                    <img src="images/content/games/spaceinvaders.png" alt="Space Invaders" class="img-responsive" />
+                    <h3>Description</h3>
+                    <p>This is a remake of the classic game made by Taito in 1978. In Space Invaders, an armada of aliens is attacking and a space ship must defeat them.</p>
+                    <h3>For Developers</h3>
+                    <p><a href="/gamefiles/space_invaders_assets.zip">Download the assets here</a></p>
+                    <p><a href="https://github.com/Santa-Susana-Game-Development-Club/Space-Invaders" target="_blank">GitHub Repository (Source Code)</a></p>
+                    <p><a href="/tutorials.php#tut16">Programming Tutorial</a></p>
                 </div>
             </div>
         </div>
