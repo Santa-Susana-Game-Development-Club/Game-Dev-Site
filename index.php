@@ -82,7 +82,7 @@
                     <h1>Board</h1>
                     <p>Advisor - Mr. Clarke - <a href="mailto:darius.clarke@simivalleyusd.org" target="_blank">darius.clarke@simivalleyusd.org</a></p>
                     <p>President - Jos&eacute; Rodriguez-Rivas -  <a href="mailto:JoseRivas823@gmail.com" target="_blank">JoseRivas823@gmail.com</a></p>
-                    <p>Vice President - Thomas Mancinelli</p>
+                    <p>Vice President - Thomas Mancinelli - <a href="mailto:thomas.mancinelli42@gmail.com" target="_blank">thomas.mancinelli42@gmail.com</a></p>
                     <p>Secretary - Hunter Buch</p>
                     <p>Treasurer - Anthony Moore</p>
 
