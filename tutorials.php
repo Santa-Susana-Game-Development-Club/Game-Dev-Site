@@ -41,10 +41,6 @@
         #Enav > li.active > a, #Enav > li > a:hover {
             color: rgb(0, 128, 128);
         }
-        .videoFrame {
-            width: 100%;
-            height: 450px;
-        }
     </style>
 </head>
 <body data-spy="scroll" data-target=".scrollspy">
@@ -114,6 +110,9 @@
                             </li>
                             <li>
                                 <a href="#tut16">Space Invaders - 1 - Setting Up and MyConstants</a>
+                            </li>
+                            <li>
+                                <a href="#tut17">Space Invaders - 2 - MyCamera and Save</a>
                             </li>
                         </ul>
                     </div>
@@ -246,6 +245,14 @@
                             </div>
                             <h2>Description</h2>
                             <p>You will set up the Space Invaders project and write the MyConstants class.</p>
+                        </section>
+                        <section id="tut17">
+                            <h2>Space Invaders - 2 - MyCamera and Save</h2>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="//www.youtube.com/embed/PHPuCw72dIU?rel=0" frameborder="0" class="embed-responsive-item"></iframe>
+                            </div>
+                            <h2>Description</h2>
+                            <p>You will set up the MyCamera class and learn about serializing in the Save Class</p>
                         </section>
                     </div>
                 </div>
