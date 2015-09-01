@@ -12,7 +12,52 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        #back-top {
+	        position: fixed;
+	        bottom: 12%;
+	        margin-left: -75px;
+        }
 
+        #back-top a {
+	        display: block;
+	        text-align: center;
+	        font-size: 32px;
+            text-shadow: none;
+            color: #d0d0d0;
+
+	        /* transition */
+	        -webkit-transition: .5s;
+	        -moz-transition: .5s;
+	        transition: .5s;
+        }
+        #back-top a:hover {
+            color: #000;
+            text-shadow: 10px 10px 10px rgb(136,136,136);
+        }
+
+        /* arrow icon (span tag) */
+        #back-top span {
+	        width: 108px;
+	        height: 108px;
+	        display: block;
+	        margin-bottom: 7px;
+	        background: #ddd;
+
+	        /* rounded corners */
+	        -webkit-border-radius: 15px;
+	        -moz-border-radius: 15px;
+	        border-radius: 15px;
+
+	        /* transition */
+	        -webkit-transition: 1s;
+	        -moz-transition: 1s;
+	        transition: 1s;
+        }
+        #back-top a:hover span {
+	        background-color: #777;
+        }
+    </style>
 </head>
 <body>
     
@@ -45,6 +90,11 @@
 
                         <h3>Design</h3>
                         <p>Game design is the aspect in the process more looked at by the gaming community. Design includes creating stories and concepts for games. This club will teach many game design concepts through a popular YouTuber, <a href="https://www.youtube.com/user/ExtraCreditz" target="_blank">Extra Credits</a>. The design aspect will not be a strong focus in this club. This club is focused on development, and is for entry level programmers. Because of this, the games they will make will be simple and having designers with complicated ideas and concepts will be too overwhelming. However, side projects among the more experienced developers, artists, and designers are welcome and encouraged.</p>
+
+                        <p id="back-top" class="hidden-xs">
+		                    <a href="#top"><i class="fa fa-arrow-up"></i></a>
+	                    </p>
+
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <h2>The Board</h2>
@@ -64,5 +114,32 @@
 
     <script src="/js/jquery.1.11.2.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // hide #back-top first
+            $("#back-top").hide();
+
+            // fade in #back-top
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+
+        });
+    </script>
 </body>
 </html>
