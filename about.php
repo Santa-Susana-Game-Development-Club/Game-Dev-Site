@@ -25,6 +25,7 @@
 	        font-size: 32px;
             text-shadow: none;
             color: #d0d0d0;
+            cursor: none;
 
 	        /* transition */
 	        -webkit-transition: .5s;
@@ -33,29 +34,8 @@
         }
         #back-top a:hover {
             color: #000;
+            cursor: pointer;
             text-shadow: 10px 10px 10px rgb(136,136,136);
-        }
-
-        /* arrow icon (span tag) */
-        #back-top span {
-	        width: 108px;
-	        height: 108px;
-	        display: block;
-	        margin-bottom: 7px;
-	        background: #ddd;
-
-	        /* rounded corners */
-	        -webkit-border-radius: 15px;
-	        -moz-border-radius: 15px;
-	        border-radius: 15px;
-
-	        /* transition */
-	        -webkit-transition: 1s;
-	        -moz-transition: 1s;
-	        transition: 1s;
-        }
-        #back-top a:hover span {
-	        background-color: #777;
         }
     </style>
 </head>
@@ -92,7 +72,7 @@
                         <p>Game design is the aspect in the process more looked at by the gaming community. Design includes creating stories and concepts for games. This club will teach many game design concepts through a popular YouTuber, <a href="https://www.youtube.com/user/ExtraCreditz" target="_blank">Extra Credits</a>. The design aspect will not be a strong focus in this club. This club is focused on development, and is for entry level programmers. Because of this, the games they will make will be simple and having designers with complicated ideas and concepts will be too overwhelming. However, side projects among the more experienced developers, artists, and designers are welcome and encouraged.</p>
 
                         <p id="back-top" class="hidden-xs">
-		                    <a href="#top"><i class="fa fa-arrow-up"></i></a>
+		                    <a><i class="fa fa-arrow-up"></i></a>
 	                    </p>
 
                     </div>
