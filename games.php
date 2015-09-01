@@ -39,7 +39,7 @@
                     <h3>For Developers</h3>
                     <p><a href="/gamefiles/pong_assets.zip">Download the assets here</a></p>
                     <p><a href="https://github.com/JoseRivas1998/pongfall2014" target="_blank">GitHub Repository (Source Code)</a></p>
-                    <p><a href="/tutorials.php#tut7">Programming Tutorial</a></p>
+                    <p><a href="/tutorials.php">Programming Tutorial</a></p>
                     <h3>For Everyone</h3>
                     <p><a href="/gamefiles/Pong.jar">Download the Game Here!</a></p>
                 </div>
@@ -51,7 +51,7 @@
                     <h3>For Developers</h3>
                     <p><a href="/gamefiles/space_invaders_assets.zip">Download the assets here</a></p>
                     <p><a href="https://github.com/Santa-Susana-Game-Development-Club/Space-Invaders" target="_blank">GitHub Repository (Source Code)</a></p>
-                    <p><a href="/tutorials.php#tut16">Programming Tutorial</a></p>
+                    <p><a href="/tutorials.php">Programming Tutorial</a></p>
                 </div>
             </div>
         </div>
