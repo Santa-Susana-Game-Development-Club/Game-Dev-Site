@@ -83,8 +83,8 @@
                     <p>Advisor - Mr. Clarke - <a href="mailto:darius.clarke@simivalleyusd.org" target="_blank">darius.clarke@simivalleyusd.org</a></p>
                     <p>President - Jos&eacute; Rodriguez-Rivas -  <a href="mailto:JoseRivas823@gmail.com" target="_blank">JoseRivas823@gmail.com</a></p>
                     <p>Vice President - Thomas Mancinelli - <a href="mailto:thomas.mancinelli42@gmail.com" target="_blank">thomas.mancinelli42@gmail.com</a></p>
-                    <p>Secretary - Hunter Buch</p>
-                    <p>Treasurer - Anthony Moore</p>
+                    <p>Secretary - Hunter Buch - <a href="mailto:talozion@gmail.com" target="_blank">talozion@gmail.com</a></p>
+                    <p>Treasurer - Anthony Moore - <a href="mailto:a.moore@simivalleyusd.org" target="_blank">a.moore@simivalleyusd.org</a></p>
 
                     <h1>Times</h1>
                     <p>Meeting times for the 2015-2016 school are every Wednesday in Room 903 from 3pm to 5pm.</p>
