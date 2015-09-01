@@ -16,7 +16,7 @@
         #back-top {
 	        position: fixed;
 	        bottom: 12%;
-	        margin-left: -75px;
+	        margin-left: -5%;
         }
 
         #back-top a {
