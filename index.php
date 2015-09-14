@@ -77,6 +77,9 @@
                             <iframe class="embed-responsive-item" src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=uioi5lkseqrvd0f7ecrvnh91gc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " frameborder="0" scrolling="no"></iframe>
                         </div>
                     </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <br /><p><a href="https://github.com/Santa-Susana-Game-Development-Club/Game-Dev-Site/issues" target="_blank">Have a problem with the site? Let us know!</a></p>
+                    </div>
                 </div>
                 <div class="col-sm-3 col-xs-12">
                     <h1>Board</h1>
