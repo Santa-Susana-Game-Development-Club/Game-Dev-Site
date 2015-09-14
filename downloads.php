@@ -138,10 +138,8 @@
     <?php 
     
         include('footer.php');
+        include('javascript.php');
 
     ?>
-
-    <script src="/js/jquery.1.11.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
