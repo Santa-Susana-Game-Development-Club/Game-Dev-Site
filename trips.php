@@ -116,6 +116,7 @@
                                 </div>
                             </div>
                         </form>
+                        <h2 class="text-danger">Sign ups due September 30th</h2>
                     </div>
                 </div>
             </div>
