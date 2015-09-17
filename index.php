@@ -1,3 +1,41 @@
+<?php
+	if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+        // If there are no errors, send the data
+
+        if(!$errName) {
+            $servername = "localhost";
+            $username = "jose_tcg";
+            $password = "SunCraft123";
+            $dbname = "sshsgamedev";
+
+            // Create connection
+            $conn = mysqli_connect($servername, $username, $password, $dbname);
+            // Check connection
+            if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+            }
+
+            $sql = "INSERT INTO IndieCade (name) VALUES ('$name')";
+
+            if (mysqli_query($conn, $sql)) {
+		        $result='<div class="alert alert-success">Thank You!</div>';
+            } else {
+                $result='<div class="alert alert-danger">Sorry there was an error sending your sign up. Please try again later.</div>';
+            }
+
+            mysqli_close($conn);
+        } else {
+            $result='<div class="alert alert-danger">Sorry there was an error sending your sign up. Please try again later.</div>';
+        }
+
+	}
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -15,6 +53,9 @@
     <style>
         #calendar {
             margin-top: 0;
+        }
+        #formName {
+            padding-left: 0;
         }
     </style>
 </head>
@@ -79,6 +120,26 @@
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <br /><p><a href="https://github.com/Santa-Susana-Game-Development-Club/Game-Dev-Site/issues" target="_blank">Have a problem with the site? Let us know!</a></p>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Please enter your GitHub username, <span class="text-danger">it is required!</span> If you need one go to <a href="https://github.com" target="_blank">GitHub.com</a> and make an account.</p>
+                        <form role="form" method="post" action="/trips.php">
+                            <div class="form-group col-xs-12" id="formName">
+                                <label for="name" class="control-label">GitHub Username</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="GitHub User" value="<?php echo htmlspecialchars($_POST['name']); ?>" />
+                                <?php echo "<p class='text-danger'>$errName</p>";?>
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                    <input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                    <?php echo $result; ?>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-12">

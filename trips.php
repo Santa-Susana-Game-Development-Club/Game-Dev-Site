@@ -58,7 +58,7 @@
     <![endif]-->
     <style>
         .formText {
-            padding-left: 0px;
+            padding-left: 0;
         }
     </style>
 </head>
