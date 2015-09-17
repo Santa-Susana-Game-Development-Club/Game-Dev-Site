@@ -21,7 +21,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
 
-            $sql = "INSERT INTO IndieCade (name) VALUES ('$name')";
+            $sql = "INSERT INTO GitHub (name) VALUES ('$name')";
 
             if (mysqli_query($conn, $sql)) {
 		        $result='<div class="alert alert-success">Thank You!</div>';
