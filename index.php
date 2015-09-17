@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-xs-12">
                         <p>Please enter your GitHub username, <span class="text-danger">it is required!</span> If you need one go to <a href="https://github.com" target="_blank">GitHub.com</a> and make an account.</p>
-                        <form role="form" method="post" action="/trips.php">
+                        <form role="form" method="post" action="/">
                             <div class="form-group col-xs-12" id="formName">
                                 <label for="name" class="control-label">GitHub Username</label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="GitHub User" value="<?php echo htmlspecialchars($_POST['name']); ?>" />
