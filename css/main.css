@@ -89,16 +89,14 @@ header {
     max-width: 95%;
 }
 
-#homeSection {
-    padding: 0;
-}
-
 .topAlert {
+    margin-top: -20px;
     text-align: center;
     background: -webkit-linear-gradient(rgb(190, 190, 190), rgb(215, 215, 215), rgb(190, 190, 190)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgb(190, 190, 190), rgb(215, 215, 215), rgb(190, 190, 190)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgb(190, 190, 190), rgb(215, 215, 215), rgb(190, 190, 190)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgb(180, 180, 180), rgb(215, 215, 215), rgb(180, 180, 180)); /* Standard syntax */
+    box-shadow: 0 3px 3px rgb(136,136,136);
 }
 
 .topAlert-text {
