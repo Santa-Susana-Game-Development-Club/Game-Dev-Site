@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-xs-12">
-                        <ul class="nav nav-tabs">
+                        <ul class="nav nav-tabs nav-justified">
                           <li role="presentation" class="active" id="t1" onclick="showPlaylist('#t1', '#pl1');"><a class="tab-link">Full Programming Tutorial</a></li>
                           <li role="presentation" id="t2" onclick="showPlaylist('#t2', '#pl2');"><a class="tab-link">Intro To Programming</a></li>
                           <li role="presentation" id="t3" onclick="showPlaylist('#t3', '#pl3');"><a class="tab-link">Pong</a></li>
