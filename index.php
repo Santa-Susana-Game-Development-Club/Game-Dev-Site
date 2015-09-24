@@ -68,13 +68,13 @@
     ?>
     
     <section>
-        <div class="col-xs-12 topAlert">
+        <!--<div class="col-xs-12 topAlert">
             <img src="images/content/gamedevguy.png" class="img-responsive"/> 
             <div class="topAlert-text">
                 No School Wednesday! Meeting on Thursday!
             </div>
-        </div>
-        <div class="container" style="padding-top:30px;">
+        </div>-->
+        <div class="container">
             <div class="row">
                 <div class="container">
                     <div class="col-sm-9 col-xs-12">
