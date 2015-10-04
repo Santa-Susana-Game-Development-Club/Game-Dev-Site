@@ -18,7 +18,9 @@
     
     <?php 
     
-        include('/inc/header.php');
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/inc/header.php";
+    include_once($path);
 
     ?>
 
@@ -34,8 +36,12 @@
     
     <?php 
     
-        include('/inc/footer.php');
-        include('/inc/javascript.php');
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/inc/footer.php";
+    include_once($path);
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/inc/javascript.php";
+    include_once($path);
 
     ?>
 </body>

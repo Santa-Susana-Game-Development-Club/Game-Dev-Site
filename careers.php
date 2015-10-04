@@ -75,8 +75,12 @@
     
     <?php 
     
-        include('/inc/footer.php');
-        include('/inc/javascript.php');
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/inc/footer.php";
+    include_once($path);
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/inc/javascript.php";
+    include_once($path);
 
     ?>
 </body>
