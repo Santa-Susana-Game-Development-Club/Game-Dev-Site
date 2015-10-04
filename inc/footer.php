@@ -6,10 +6,9 @@ echo '
                 <div class="row">
                     <div class="col-xs-12" id="ftr-links">
                         <ul>';
-    
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/inc/nav.php";
-include_once($path);
+include($path);
 echo '
                         </ul>
                     </div>
