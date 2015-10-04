@@ -95,7 +95,7 @@ if(!$errName && !$errEmail && !$errHuman) {
     
     <?php 
     
-        include('header.php');
+        include('/inc/header.php');
 
     ?>
 
@@ -149,8 +149,8 @@ if(!$errName && !$errEmail && !$errHuman) {
     
     <?php 
     
-        include('footer.php');
-        include('javascript.php');
+        include('/inc/footer.php');
+        include('/inc/javascript.php');
 
     ?>
 </body>

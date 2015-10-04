@@ -1,4 +1,6 @@
-<header>
+<?php
+echo
+'<header>
         <div class="container">
         	<div class="row">
                 <div class="col-xs-12">
@@ -21,15 +23,15 @@
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav">
-                                    <?php 
-                                        include('nav.php');
-                                    ?>
-                                </ul>
+                                <ul class="nav navbar-nav">';
+                                        include('/inc/nav.php');
+echo
+                                '</ul>
                             </div><!-- /.navbar-collapse -->
                         </div><!-- /.container-fluid -->
                     </nav>
                 </div>
             </div>
         </div>
-    </header>
+    </header>';
+?>

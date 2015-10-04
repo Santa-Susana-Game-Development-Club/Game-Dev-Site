@@ -26,7 +26,7 @@
     
     <?php 
     
-        include('header.php');
+        include('/inc/header.php');
 
     ?>
 
@@ -80,8 +80,8 @@
     
     <?php 
     
-        include('footer.php');
-        include('javascript.php');
+        include('/inc/footer.php');
+        include('/inc/javascript.php');
 
     ?>
     <script type="text/javascript">
