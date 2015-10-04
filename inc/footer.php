@@ -7,7 +7,9 @@ echo '
                     <div class="col-xs-12" id="ftr-links">
                         <ul>';
     
-                                include('/inc/nav.php');
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/inc/nav.php";
+include_once($path);
 echo '
                         </ul>
                     </div>
