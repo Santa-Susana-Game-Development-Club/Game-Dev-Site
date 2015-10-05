@@ -91,24 +91,24 @@
 
     ?>
     <script type="text/javascript">
-        if($(location).attr('hash') != "") {
-            var hash = $(location).attr('hash');
-            if(hash == "#pl1") {
+        if($(location).attr('search') != "") {
+            var hash = $(location).attr('search');
+            if(hash == "?pl=1") {
                 showPlaylist('#t1', '#pl1');
             }
-            if(hash == "#pl2") {
+            if(hash == "?pl=2") {
                 showPlaylist('#t2', '#pl2');
             }
-            if(hash == "#pl3") {
+            if(hash == "?pl=3") {
                 showPlaylist('#t3', '#pl3');
             }
-            if(hash == "#pl4") {
+            if(hash == "?pl=4") {
                 showPlaylist('#t4', '#pl4');
             }
-            if(hash == "#pl5") {
+            if(hash == "?pl=5") {
                 showPlaylist('#t5', '#pl5');
             }
-        }
+        } 
         function showPlaylist(navid, pid) {
             $("#t1, #t2, #t3, #t4, #t5").removeClass("active");
             $(navid).addClass("active");
