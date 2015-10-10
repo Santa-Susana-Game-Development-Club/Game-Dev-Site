@@ -113,3 +113,17 @@ header {
     width: 50px;
     float: left;
 }
+
+#youtubeLink {
+    font: normal normal normal 24px/1 FontAwesome;
+    -webkit-transition: font-size .25s, text-shadow .25s; /* For Safari 3.1 to 6.0 */
+    transition: font-size .25s, text-shadow .25s;
+    text-shadow: none
+}
+
+#youtubeLink:hover {
+    font: normal normal normal 28px/1 FontAwesome;
+    -webkit-transition: font-size .25s, text-shadow .25s; /* For Safari 3.1 to 6.0 */
+    transition: font-size .25s, text-shadow .25s;
+    text-shadow: 10px 10px 10px rgb(120,120,120);
+}
