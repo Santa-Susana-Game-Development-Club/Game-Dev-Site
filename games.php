@@ -48,6 +48,8 @@
                     <p><a href="/gamefiles/space_invaders_assets.zip">Download the assets here</a></p>
                     <p><a href="https://github.com/Santa-Susana-Game-Development-Club/Space-Invaders" target="_blank">GitHub Repository (Source Code)</a></p>
                     <p><a href="/tutorials.php?pl=4">Programming Tutorial</a></p>
+                    <h3>For Everyone</h3> 
+                    <p><a href="/gamefiles/Space Invaders.jar">Download the Game Here!</a></p>
                 </div>
             </div>
         </div>
