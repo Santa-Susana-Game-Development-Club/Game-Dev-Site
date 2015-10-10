@@ -11,6 +11,10 @@
         #img-heading {
             padding-top: 50px;
         }
+        .iconLink {
+          padding-left: 10px;
+          font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +92,36 @@
                                        </a>
 
                                        <a href="#libgdx-carousel" class="carousel-control right" data-slide="next">
+                                           <span class="icon-next"></span>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="container">
+                           <div class="col-sm-5 col-xs-12">
+                               <img src="images/content/androidsdk.png" id="img-heading" class="img-responsive" />
+                               <p>The Android SDK provides us with the tools we need in order to port our games onto Android. The version from here is a standardized version downloaded on October 9<sup>th</sup>, 2015. If you wouldl like to check out the current version or maybe even the IDE built specifically for Android, visit the site <a href="https://developer.android.com/sdk/index.html" target="_blank">here</a>.</p>
+                               <p>Download: <a class="iconLink" href="/gamefiles/android-sdk_r23.0.2-windows.zip"><i class="fa fa-windows"></i></a> <a class="iconLink" href="/gamefiles/android-sdk_r24.3.4-macosx.zip"><i class="fa fa-apple"></i></a></p>
+                           </div>
+                           <div class="col-sm-7 col-xs-12">
+                               <div id="android-carousel" class="carousel slide">
+                                   <div class="carousel-inner">
+                                       <div class="item active">
+                                           <img src="images/content/downlaodsCarousel/androidsdk-web.png" class="img-responsive" />
+                                       </div>
+
+                                       <div class="item">
+                                           <img src="images/content/downlaodsCarousel/androidsdk.png" class="img-responsive" />
+                                       </div>
+
+                                       <a href="#android-carousel" class="carousel-control left" data-slide="prev">
+                                           <span class="icon-prev"></span>
+                                       </a>
+
+                                       <a href="#android-carousel" class="carousel-control right" data-slide="next">
                                            <span class="icon-next"></span>
                                        </a>
                                    </div>
