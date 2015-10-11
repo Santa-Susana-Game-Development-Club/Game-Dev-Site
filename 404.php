@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="col-xs-12">
                         <h1>404 - Not Found</h1>
-                        
+                        <p>We're sorry, but the page: <span id="href"></span> could not be found. Please try again later or try a different page</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,11 @@
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/javascript.php";
     include_once($path);
-
     ?>
+    <script>
+        $(document).ready(function() {
+            document.getElementById("href").innerHTML = $(location).attr('hostname') + $(location).attr('pathname');
+        });
+    </script>
 </body>
 </html>
