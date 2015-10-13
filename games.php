@@ -28,7 +28,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-xs-12">
-                    <h2>Pong <small>Fall 2014</small></h2>
+                    <h2>Pong</h2>
                     <img src="images/content/games/pong.png" alt="Pong" class="img-responsive"/>
                     <h3>Description</h3>
                     <p>This is a remake of the classic game made by Atari in 1972. In Pong, you play tennis against the computer. As the ball bounces off of the paddles and the screen, the ball speeds up.</p>

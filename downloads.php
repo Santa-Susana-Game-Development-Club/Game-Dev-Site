@@ -103,7 +103,7 @@
                        <div class="container">
                            <div class="col-sm-5 col-xs-12">
                                <img src="images/content/androidsdk.png" id="img-heading" class="img-responsive" />
-                               <p>The Android SDK provides us with the tools we need in order to port our games onto Android. The version from here is a standardized version downloaded on October 9<sup>th</sup>, 2015. If you wouldl like to check out the current version or maybe even the IDE built specifically for Android, visit the site <a href="https://developer.android.com/sdk/index.html" target="_blank">here</a>.</p>
+                               <p>The Android SDK provides us with the tools we need in order to port our games onto Android. The version from here is a standardized version downloaded on October 9<sup>th</sup>, 2015. If you would like to check out the current version or maybe even the IDE built specifically for Android, visit the site <a href="https://developer.android.com/sdk/index.html" target="_blank">here</a>.</p>
                                <p>Download: <a class="iconLink" href="/gamefiles/android-sdk_r23.0.2-windows.zip"><i class="fa fa-windows"></i></a> <a class="iconLink" href="/gamefiles/android-sdk_r24.3.4-macosx.zip"><i class="fa fa-apple"></i></a></p>
                            </div>
                            <div class="col-sm-7 col-xs-12">
