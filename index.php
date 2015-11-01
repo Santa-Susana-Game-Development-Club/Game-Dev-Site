@@ -90,6 +90,69 @@
                             <iframe class="embed-responsive-item" src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=uioi5lkseqrvd0f7ecrvnh91gc%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " frameborder="0" scrolling="no"></iframe>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-7 col-xs-12">
+                            <h3>IndieCade Trip <small>October 24<sup>th</sup>, 2015</small></h3>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <div class="embed-responsive-item">
+                                    <div id="indicade-carousel" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="images/content/trips/indiecade/00.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/01.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/02.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/03.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/04.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/05.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/06.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/07.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/08.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/09.JPG" class="img-responsive" />
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/content/trips/indiecade/10.JPG" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <a href="#indicade-carousel" class="carousel-control left" data-slide="prev">
+                                            <span class="icon-prev"></span>
+                                        </a>
+
+                                        <a href="#indicade-carousel" class="carousel-control right" data-slide="next">
+                                            <span class="icon-next"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-sm-6 col-xs-12">
                         <br /><p><a href="https://github.com/Santa-Susana-Game-Development-Club/Game-Dev-Site/issues" target="_blank">Have a problem with the site? Let us know!</a></p>
                     </div>
