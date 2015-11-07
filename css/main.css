@@ -91,6 +91,7 @@ header {
 
 .topAlert {
     margin-top: -20px;
+    margin-bottom: 20px;
     text-align: center;
     background: -webkit-linear-gradient(rgb(190, 190, 190), rgb(215, 215, 215), rgb(190, 190, 190)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgb(190, 190, 190), rgb(215, 215, 215), rgb(190, 190, 190)); /* For Opera 11.1 to 12.0 */
