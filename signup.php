@@ -34,8 +34,8 @@
 
 if(!$errName && !$errEmail && !$errHuman) {
     $servername = "localhost";
-    $username = "jose_tcg";
-    $password = "SunCraft123";
+    $username = "connector_tcg";
+    $password = "connect123.456";
     $dbname = "sshsgamedev";
 
     // Create connection
