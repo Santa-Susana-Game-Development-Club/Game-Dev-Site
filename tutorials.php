@@ -8,7 +8,7 @@
     ?>
     <title>Tutorials | Santa Susana Game Development Club</title>
     <style>
-        #pl2, #pl3, #pl4, #pl5 {
+        #pl2, #pl3, #pl4, #pl5, #pl6 {
             display: none;
         }
         .tab-link:hover {
@@ -17,10 +17,10 @@
     </style>
 </head>
 <body>
-    
-    
-    <?php 
-    
+
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/header.php";
     include_once($path);
@@ -42,7 +42,8 @@
                           <li role="presentation" id="t2" onclick="showPlaylist('#t2', '#pl2');"><a class="tab-link">Intro To Programming</a></li>
                           <li role="presentation" id="t3" onclick="showPlaylist('#t3', '#pl3');"><a class="tab-link">Pong</a></li>
                           <li role="presentation" id="t4" onclick="showPlaylist('#t4', '#pl4');"><a class="tab-link">Space Invaders</a></li>
-                          <li role="presentation" id="t5" onclick="showPlaylist('#t5', '#pl5');"><a class="tab-link">Code Lapse</a></li>
+                          <li role="presentation" id="t5" onclick="showPlaylist('#t5', '#pl5');"><a class="tab-link">Intermediate Java</a></li>
+                          <li role="presentation" id="t6" onclick="showPlaylist('#t6', '#pl6');"><a class="tab-link">Code Lapse</a></li>
                         </ul>
                         <section id="pl1">
                             <div class="embed-responsive embed-responsive-16by9">
@@ -65,6 +66,11 @@
                             </div>
                         </section>
                         <section id="pl5">
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="//www.youtube.com/embed/videoseries?list=PLXGqUKNYJYkihuquwykpJQcMfdp8kjy3l" frameborder="0" class="embed-responsive-item" allowfullscreen></iframe>
+                          </div>
+                        </section>
+                        <section id="pl6">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="//www.youtube.com/embed/videoseries?list=PLXGqUKNYJYkhaknyJbGT7EzZLelxHlOfw" frameborder="0" allowfullscreen></iframe>
                             </div>
@@ -74,9 +80,9 @@
             </div>
         </div>
     </section>
-    
-    <?php 
-    
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/footer.php";
     include_once($path);
@@ -103,11 +109,14 @@
             if(hash == "?pl=5") {
                 showPlaylist('#t5', '#pl5');
             }
-        } 
+            if(hash == "?pl=6") {
+                showPlaylist('#t6', '#pl6');
+            }
+        }
         function showPlaylist(navid, pid) {
-            $("#t1, #t2, #t3, #t4, #t5").removeClass("active");
+            $("#t1, #t2, #t3, #t4, #t5, #t6").removeClass("active");
             $(navid).addClass("active");
-            $("#pl1, #pl2, #pl3, #pl4, #pl5").hide();
+            $("#pl1, #pl2, #pl3, #pl4, #pl5, #pl6").hide();
             $(pid).show();
         }
     </script>
