@@ -10,10 +10,8 @@ easter_egg.code = function () {
 easter_egg.load();
 
 function color() {
-    var r = Math.floor(Math.random() * 255) + 150;
-    var g = Math.floor(Math.random() * 255) + 150;
-    var b = Math.floor(Math.random() * 255) + 150;
-    var rgb = "rgb(" + r + ", " + g + "," + b + ")";
-    document.body.style.backgroundColor = rgb;
-
+  var h = Math.floor(Math.random() * 360);
+  var s = 100;
+  var l = 75;
+  document.body.style.backgroundColor = "hsl(" + h + "," + s + "%," + l + "%)";
 }
