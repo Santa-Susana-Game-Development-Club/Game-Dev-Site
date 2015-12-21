@@ -14,21 +14,24 @@
         #formName {
             padding-left: 0;
         }
+        #indicade-carousel {
+          height: 100%;
+        }
     </style>
 </head>
 <body>
-    
-    <?php 
-    
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/header.php";
     include_once($path);
 
     ?>
-    
+
     <section>
         <!-- <div class="col-xs-12 topAlert">
-            <img src="images/content/gamedevguy.png" class="img-responsive"/> 
+            <img src="images/content/gamedevguy.png" class="img-responsive"/>
             <div class="topAlert-text">
                 No School Wednesday! Meeting on Thursday!
             </div>
@@ -96,6 +99,19 @@
                             <div class="embed-responsive embed-responsive-16by9">
                                 <div class="embed-responsive-item">
                                     <div id="indicade-carousel" class="carousel slide">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#indicade-carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="1"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="2"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="3"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="4"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="5"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="6"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="7"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="8"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="9"></li>
+                                            <li data-target="#indicade-carousel" data-slide-to="10"></li>
+                                        </ol>
                                         <div class="carousel-inner">
                                             <div class="item active">
                                                 <img src="images/content/trips/indiecade/00.JPG" class="img-responsive" />
@@ -175,9 +191,9 @@
             </div>
         </div>
     </section>
-    
-    <?php 
-    
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/footer.php";
     include_once($path);
@@ -187,6 +203,6 @@
 
     ?>
 
-    
+
 </body>
 </html>
