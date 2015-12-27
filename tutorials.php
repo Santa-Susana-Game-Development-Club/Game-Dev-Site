@@ -92,33 +92,20 @@
 
     ?>
     <script type="text/javascript">
+      $(document).ready(function() {
         if($(location).attr('search') != "") {
-            var hash = $(location).attr('search');
-            if(hash == "?pl=1") {
-                showPlaylist('#t1', '#pl1');
-            }
-            if(hash == "?pl=2") {
-                showPlaylist('#t2', '#pl2');
-            }
-            if(hash == "?pl=3") {
-                showPlaylist('#t3', '#pl3');
-            }
-            if(hash == "?pl=4") {
-                showPlaylist('#t4', '#pl4');
-            }
-            if(hash == "?pl=5") {
-                showPlaylist('#t5', '#pl5');
-            }
-            if(hash == "?pl=6") {
-                showPlaylist('#t6', '#pl6');
-            }
+        var hashNumber = parseInt($(location).attr('search').replace("?pl=", ''));
+        if(hashNumber >= 1 && hashNumber <= 6) {
+          showPlaylist("#t" + hashNumber, "#pl" + hashNumber);
         }
-        function showPlaylist(navid, pid) {
-            $("#t1, #t2, #t3, #t4, #t5, #t6").removeClass("active");
-            $(navid).addClass("active");
-            $("#pl1, #pl2, #pl3, #pl4, #pl5, #pl6").hide();
-            $(pid).show();
-        }
+      }
+      });
+      function showPlaylist(navid, pid) {
+        $("#t1, #t2, #t3, #t4, #t5, #t6").removeClass("active");
+        $(navid).addClass("active");
+        $("#pl1, #pl2, #pl3, #pl4, #pl5, #pl6").hide();
+        $(pid).show();
+      }
     </script>
 </body>
 </html>
