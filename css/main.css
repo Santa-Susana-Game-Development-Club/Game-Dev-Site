@@ -3,25 +3,25 @@
 @import url(/css/font-awesome.min.css);
 
 
-body { 
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400; 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
-section { 
+section {
     padding: 20px 0px;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-    font-family: 'Press Start 2P', cursive; 
-    font-size: 16px; 
-    margin-top: 20px; 
-    line-height: 30px; 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
-h1 { 
-    font-size: 24px; 
-    margin-top: 0px; 
+h1 {
+    font-size: 24px;
+    margin-top: 0px;
 }
 
 header {
@@ -31,28 +31,28 @@ header {
     background: linear-gradient(to right, rgb(215, 215, 215), rgb(0, 215, 215)); /* Standard syntax */
 }
 
-.navbar { 
-    margin-bottom: 0px; 
-    border: none; 
-    border-radius: 0px; 
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
 }
 
-.navbar-default { 
-    background-color: transparent; 
+.navbar-default {
+    background-color: transparent;
 }
 
-.container-fluid { 
-    padding-right: 0px; 
-    padding-left: 0px; 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: rgb(0, 128, 128);
 	background-color: transparent;
 	font-weight: 700;
 }
 
-.navbar-default .navbar-nav>li>a { 
+.navbar-default .navbar-nav>li>a {
 	font-weight: 700;
 }
 
@@ -66,8 +66,8 @@ header {
 }
 
 #ftr-wrapper {
-    background-color: rgb(0, 128, 128); 
-    padding: 20px 0px; 
+    background-color: rgb(0, 128, 128);
+    padding: 20px 0px;
 }
 
 #ftr-links ul {
@@ -127,4 +127,11 @@ header {
     -webkit-transition: font-size .25s, text-shadow .25s; /* For Safari 3.1 to 6.0 */
     transition: font-size .25s, text-shadow .25s;
     text-shadow: 10px 10px 10px rgb(120,120,120);
+}
+
+.carousel-control > .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
 }

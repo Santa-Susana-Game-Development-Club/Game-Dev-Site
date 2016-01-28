@@ -76,11 +76,11 @@
                                         </div>
 
                                         <a href="#home-carousel" class="carousel-control left" data-slide="prev">
-                                            <span class="icon-prev"></span>
+                                            <i class="fa fa-arrow-left"></i>
                                         </a>
 
                                         <a href="#home-carousel" class="carousel-control right" data-slide="next">
-                                            <span class="icon-next"></span>
+                                            <i class="fa fa-arrow-right"></i>
                                         </a>
 
                                     </div>
@@ -158,11 +158,11 @@
                                             </div>
                                         </div>
                                         <a href="#indicade-carousel" class="carousel-control left" data-slide="prev">
-                                            <span class="icon-prev"></span>
+                                            <i class="fa fa-arrow-left"></i>
                                         </a>
 
                                         <a href="#indicade-carousel" class="carousel-control right" data-slide="next">
-                                            <span class="icon-next"></span>
+                                            <i class="fa fa-arrow-right"></i>
                                         </a>
                                     </div>
                                 </div>

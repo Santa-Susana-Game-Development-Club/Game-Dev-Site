@@ -18,9 +18,9 @@
     </style>
 </head>
 <body>
-    
-    <?php 
-    
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/header.php";
     include_once($path);
@@ -58,11 +58,11 @@
                                        </div>
 
                                        <a href="#eclipse-carousel" class="carousel-control left" data-slide="prev">
-                                           <span class="icon-prev"></span>
+                                           <i class="fa fa-arrow-left"></i>
                                        </a>
 
                                        <a href="#eclipse-carousel" class="carousel-control right" data-slide="next">
-                                           <span class="icon-next"></span>
+                                           <i class="fa fa-arrow-right"></i>
                                        </a>
                                    </div>
                                </div>
@@ -88,11 +88,11 @@
                                        </div>
 
                                        <a href="#libgdx-carousel" class="carousel-control left" data-slide="prev">
-                                           <span class="icon-prev"></span>
+                                           <i class="fa fa-arrow-left"></i>
                                        </a>
 
                                        <a href="#libgdx-carousel" class="carousel-control right" data-slide="next">
-                                           <span class="icon-next"></span>
+                                           <i class="fa fa-arrow-right"></i>
                                        </a>
                                    </div>
                                </div>
@@ -118,11 +118,11 @@
                                        </div>
 
                                        <a href="#android-carousel" class="carousel-control left" data-slide="prev">
-                                           <span class="icon-prev"></span>
+                                           <i class="fa fa-arrow-left"></i>
                                        </a>
 
                                        <a href="#android-carousel" class="carousel-control right" data-slide="next">
-                                           <span class="icon-next"></span>
+                                           <i class="fa fa-arrow-right"></i>
                                        </a>
                                    </div>
                                </div>
@@ -148,11 +148,11 @@
                                        </div>
 
                                        <a href="#tiled-carousel" class="carousel-control left" data-slide="prev">
-                                           <span class="icon-prev"></span>
+                                           <i class="fa fa-arrow-left"></i>
                                        </a>
 
                                        <a href="#tiled-carousel" class="carousel-control right" data-slide="next">
-                                           <span class="icon-next"></span>
+                                           <i class="fa fa-arrow-right"></i>
                                        </a>
                                    </div>
                                </div>
@@ -164,10 +164,10 @@
         </div>
     </section>
 
-    
-    
-    <?php 
-    
+
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/footer.php";
     include_once($path);
