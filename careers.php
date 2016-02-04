@@ -21,10 +21,10 @@
     </style>
 </head>
 <body>
-    
-    <?php 
-    
-        include('/inc/header.php');
+
+    <?php
+
+        include($_SERVER["DOCUMENT_ROOT"] . '/inc/header.php');
 
     ?>
 
@@ -67,9 +67,9 @@
             </div>
         </div>
     </section>
-    
-    <?php 
-    
+
+    <?php
+
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/inc/footer.php";
     include_once($path);

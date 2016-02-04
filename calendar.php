@@ -9,10 +9,10 @@
     <title>Calendar | Santa Susana Game Development Club</title>
 </head>
 <body>
-    
-    <?php 
-    
-        include('/inc/header.php');
+
+    <?php
+
+        include($_SERVER["DOCUMENT_ROOT"] . '/inc/header.php');
 
     ?>
 
@@ -29,11 +29,11 @@
             </div>
         </div>
     </section>
-    
-    <?php 
-    
-        include('/inc/footer.php');
-        include('/inc/javascript.php');
+
+    <?php
+
+        include($_SERVER["DOCUMENT_ROOT"] . '/inc/footer.php');
+        include($_SERVER["DOCUMENT_ROOT"] . '/inc/javascript.php');
 
     ?>
 </body>
